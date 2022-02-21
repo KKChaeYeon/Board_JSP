@@ -1,0 +1,9 @@
+CREATE TABLE `shopdb`.`member_tbl` (
+  `Email` VARCHAR(45) NOT NULL,
+  `PWD` VARCHAR(45) NULL,
+  `phone` VARCHAR(45) NULL,
+  `zipcode` INT NULL,
+  `addr1` VARCHAR(45) NULL,
+  `addr2` VARCHAR(45) NULL,
+  `role` VARCHAR(45) NULL,
+  PRIMARY KEY (`Email`));
